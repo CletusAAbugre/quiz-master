@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(./CLE.jpg) no-repeat center center fixed;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+  }
+  
+  .quiz-card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  #answers button {
+    transition: transform 0.2s;
+  }
+  
+  #answers button:hover {
+    transform: scale(1.05);
+    background-color: #f8f9fa;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
